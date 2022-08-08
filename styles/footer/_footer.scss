@@ -1,0 +1,21 @@
+.footer {
+    background-color: $light-gray;
+    
+@include media-breakpoint-up ('lg') {
+    &-primary {
+        width: 25%;
+    }
+
+    &-secondary {
+        width: 75%;
+    }
+}
+
+    h1 {
+        font-size: 22px;
+        font-family: 'PlayFair Display' , sans-serif;
+        font-weight: 400;
+        text-align: center;
+        line-height: 30px;
+    }
+}

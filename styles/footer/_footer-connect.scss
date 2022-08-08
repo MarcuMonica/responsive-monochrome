@@ -1,0 +1,41 @@
+.footer-connect {
+  p {
+    text-align: center;
+    line-height: 18px;
+    font-size: 15px;
+
+    @include media-breakpoint-up("lg") {
+      font-size: 22px;
+      font-weight: 500;
+      font-family: "Playfair Display";
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    input {
+      width: 100%;
+      outline: none;
+      padding: 4px;
+    }
+
+    button {
+      align-self: center;
+      margin-top: 30px;
+      width: 30%;
+      min-width: 100px;
+      padding: 4px 0;
+      border: 1px solid $black;
+      text-transform: uppercase;
+      transition: box-shadow 0.2s linear;
+      
+    &:hover {
+        box-shadow: 4px 3px 5px $brand-primary, 7px 10px 14px $brand-secondary;
+      }
+    }   
+
+  }
+}

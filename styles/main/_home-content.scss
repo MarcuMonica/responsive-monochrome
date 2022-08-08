@@ -1,0 +1,16 @@
+.home-content {
+   margin-top :40px;
+
+   h1 {
+    font-size: 18px;    
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 10px;
+
+    @include media-breakpoint-up ('lg') {
+         font-size: 44px;
+         margin-bottom: 40px;
+     }
+    }
+  }

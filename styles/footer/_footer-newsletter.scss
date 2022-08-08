@@ -1,0 +1,17 @@
+.footer-newsletter {
+  display: flex;
+  align-items: start;
+  margin-bottom: 20px;
+
+  input {
+    margin-top: 6px;
+    margin-right: 6px;
+  }
+
+  label {
+    span {
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
+  }
+}

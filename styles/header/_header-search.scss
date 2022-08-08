@@ -1,0 +1,35 @@
+.header-search {
+  background-color: transparent;
+  border: 1px solid $white;
+  outline: none;
+  display: flex;
+  flex-direction: row-reverse;
+  opacity: 40%;
+  max-width: 300px;
+
+  @include media-breakpoint-up("lg") {
+    border: 1px solid $brand-primary;
+  }
+
+  button {
+    border: 1px solid transparent;
+    outline: none;
+    background-color: transparent;
+
+    i {
+      color: $white;
+      opacity: 72%;
+
+      @include media-breakpoint-up("lg") {
+        color: $brand-primary;
+      }
+    }
+  }
+
+  input {
+    background-color: transparent;
+    border: 1px solid transparent;
+    outline: none;
+    color: $white;
+  }
+}

@@ -1,0 +1,20 @@
+.catalog-preview {
+  margin-top: 38px;
+
+  header {
+    border-top: 2px solid #ebebeb; 
+
+    h1 {
+      text-align: center;
+      margin-top: 15px;
+      font-family: "Playfair Display";
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 18px;
+
+      @include media-breakpoint-up ('lg') {
+        font-size: 36px;
+      }
+    }
+  }
+}

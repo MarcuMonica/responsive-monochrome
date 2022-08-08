@@ -1,0 +1,15 @@
+.header-secondary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "PlayFair Display", sans-serif;
+
+  .header-search-connect {
+    display: flex;
+    justify-content: center;
+
+    .header-search {
+      margin-right: 20px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.header-primary {
+  background-color: $brand-primary;
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  li {
+    transition: background-color 0.2s linear, color 0.2s linear ;
+  }
+
+  & li:hover {
+    box-shadow: 0px 0px 10px $white;
+    background-color: $white;
+    color: $brand-primary;
+  }
+
+  @include media-breakpoint-up('lg') {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    li {
+      padding: 2px 20px;
+    }
+  }
+
+  .hamburger-menu {
+    color: $white;
+    font-size: 22px;
+  }
+}
