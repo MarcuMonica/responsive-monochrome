@@ -9,10 +9,10 @@ export default function HeaderMenu() {
           <a href="http://example.com">Brands</a>
         </li>{" "}
         <li>
-          <a href="http://example.com">Men's</a>
+          <a href="http://example.com">Mens</a>
         </li>{" "}
         <li>
-          <a href="http://example.com">Women's</a>
+          <a href="http://example.com">Womens</a>
         </li>{" "}
         <li>
           <a href="http://example.com">Accessories</a>

@@ -4,22 +4,22 @@ export default function HeaderSocial(){
             <ul className="d-flex">
                 <li className="pe-3">
                     <a href="http://example.com">
-                    <i class="fa-brands fa-youtube"></i>
+                    <i className="fa-brands fa-youtube"></i>
                     </a>
                 </li>
                 <li className="pe-3">
                     <a href="http://example.com">
-                    <i class="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-twitter"></i>
                     </a>
                 </li>
                 <li className="pe-3">
                     <a href="http://example.com">
-                    <i class="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-facebook-f"></i>
                     </a>
                 </li>
                 <li className="pe-3">
                     <a href="http://example.com">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                     </a>
                 </li>
                 <li className="pe-3">
